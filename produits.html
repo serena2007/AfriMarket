@@ -6,6 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+    <h1>AfriMarket</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="produits.html">Produits</a>
+      <a href="contact.html">Contact</a>
+      <span>Panier : <strong id="compteur-panier">0</strong></span>
+    </nav>
+  </header>
+  <main>
+    <h2>Produits</h2>
+    <div id="liste-produits"></div>
+    <button type="button" onclick="ajouterAuPanier(1)">Ajouter le produit 1</button>
+  </main>
+  <script src="js/panier.js"></script>
 </body>
 </html>
